@@ -1,0 +1,9 @@
+We implemented the game Snake.
+
+Design choises:
+- We implemented the food to be one pixel and each segment of the snake also has the size of one pixel.
+- The food appears always at a random position, for that we use a random generator, which takes the values of the screen size to generate a y and x coordinate for the food.
+- When the snake dies, we print the achieved score on the screen.
+- If the player reaches the designated goal than the connected motor starts and runs at 50% for 1000 milli seconds.
+- Via a website the game can be reseted and the goal score can be increased or decreased. 
+- We used an enum to keep track of the directions.
