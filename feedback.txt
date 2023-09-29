@@ -1,0 +1,4 @@
+Good work! Some (more) in-line documentation would've been nice.
+
+A little comment about naming conventions: 
+check_new_position() might be renamed to something like is_valid_position() 
